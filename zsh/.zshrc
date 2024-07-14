@@ -21,6 +21,11 @@ zle vi-cmd-mode
 zle .vi-history-search-backward
 }
 
+zle-line-init() {
+    zle autosuggest-start
+}
+zle -N zle-line-init
+
 autoload vi-search-fix
 zle -N vi-search-fix
 bindkey -M viins '\e/' vi-search-fix
