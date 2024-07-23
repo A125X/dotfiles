@@ -97,4 +97,4 @@ ctrl + alt + cmd - d : exec discord
 ctrl + alt + cmd - f : open -a finder
 ctrl + alt + cmd - n : open -a system\ settings
 ctrl + alt + cmd - a : open -a arc
-ctrl + alt + cmd - p : exec ~/projects/aseprite/build/bin/aseprite
+ctrl + alt + cmd - p : exec /Applications/Aseprite/aseprite
