@@ -80,8 +80,8 @@ ctrl - 6 : yabai -m space --focus 6;
 ctrl - 7 : yabai -m space --focus 7;
 
 # move between spaces back and forth without animation from macos
-ctrl - left : yabai -m space --focus prev
-ctrl - right : yabai -m space --focus next
+#ctrl - left : yabai -m space --focus prev
+#ctrl - right : yabai -m space --focus next
 
 # -- Starting/Stopping/Restarting Yabai --
 
@@ -93,7 +93,8 @@ ctrl + alt - r : yabai --restart-service
 # apps
 ctrl + alt + cmd - i : exec kitty -d ~/
 ctrl + alt + cmd - t : open -a telegram
-ctrl + alt + cmd - d : exec discord
+#ctrl + alt + cmd - o : open -a shottr
+ctrl + alt + cmd - d : open -a discord
 ctrl + alt + cmd - f : open -a finder
 ctrl + alt + cmd - n : open -a system\ settings
 ctrl + alt + cmd - a : open -a arc
